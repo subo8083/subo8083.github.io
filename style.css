@@ -27,6 +27,7 @@ body{
     border-radius: 10%;
     /* border: 1px solid red; */
     margin-left: 100px;
+    margin-top: 5%;
 
 }
 #header{
@@ -102,6 +103,8 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 40px;
+    color: rgb(164, 154, 167);
+    font-weight: 800;
 
 }
 .header-text h1 span{
@@ -109,11 +112,28 @@ nav ul li a:hover::after{
 }
 
 
+.header-text h2{
+    font-size: 40px;
+    margin-top: 40px;
+    color: rgb(164, 154, 167);
+
+
+}
+.header-text h2 span{
+    color: #ff004f;
+    font-style: italic;
+
+}
+
+
+
+
+
 /* About-------------------------- */
 
 #about{
     padding: 80px 0px;
-    color:#ababab;
+    color:rgb(164, 154, 167)Z;
 
 }
 .row{
@@ -138,7 +158,8 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: rgb(164, 154, 167);
+    margin-bottom: 20px;
 }
 
 .tab-titles{
@@ -171,6 +192,8 @@ nav ul li a:hover::after{
 .tab-contents{
     list-style: none;
     margin: 10px 0;
+    
+   
 }
 .tab-contents ul li span{
     color: #b54765;
@@ -183,7 +206,50 @@ nav ul li a:hover::after{
 
 .tab-contents.active-tab{
     display: block;
+    display: flex;
 }
+
+
+#java{
+    width: 80px;
+    margin-left: 50px;
+    
+}
+#spring{
+    width: 40px;
+    margin-left: 50px;
+}
+#rest{
+    width: 40px;
+    margin-left: 50px;
+}
+#sql{
+    width:100px;
+    margin-left: 50px;
+}
+#html{
+    width:50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#cssi{
+    width:50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#js{
+    width:100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#git{
+    width:70px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: transparent;
+    border-radius: 50%;
+}
+
 
 
 
@@ -336,6 +402,11 @@ nav ul li a:hover::after{
 
 /* ---------contact---------------- */
 
+
+.contact{
+    margin-top: 220px;
+}
+
 .contact-left{
 
     flex-basis: 35%;
@@ -415,6 +486,11 @@ form .btn2{
     color: #ff004f;
 }
 
+
+.container{
+    margin-top: 50px;
+}
+
 /*------------ CSS for small screen--------------- */
 
 nav .fa-sharp {
@@ -429,24 +505,26 @@ nav .fa-sharp {
     }
     #personalpic{
         width: 50%;
-        margin-left: -2px;
-        height: 400px;
-        
+        margin-left: 1px;
+        height: 500px;
+        margin-top: 10%;;
     }
     .header-text{
-        margin-top:30% ;
+        margin-top:10% ;
         /* font-size: 16px; */
 
     }
     .header-text h1{
         font-size: 25px;
+        margin-bottom: 40px;
         
     }
-    .header-text h4{
+  
+    /* .header-text h4{
         font-size: 13px;
         text-align: center;
         margin-left: 2px;
-    }
+    } */
 
     nav .fa-sharp{
         display: block;
@@ -505,6 +583,63 @@ nav .fa-sharp {
         font-size: 14px;
     }
 
+    .header-text h2{
+        font-size: 20px;
+        margin-top: 20px;
+       
+       
+    
+    
+    }
+
+
+    #java{
+        width: 50px;
+        margin-left: 20px;
+        
+    }
+    #spring{
+        width: 25px;
+        margin-left: 20px;
+        
+    }
+    #rest{
+        width: 25px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    #sql{
+        width:60px;
+        margin-left: 20px;
+    }
+    #html{
+        width:25px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #cssi{
+        width:25px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    #js{
+        width:50px;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    #git{
+        width:35px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background: transparent;
+        border-radius: 50%;
+    }
+    #logoss{
+
+        margin-left: 20px;
+
+    }
+
     
 
 }
@@ -512,26 +647,63 @@ nav .fa-sharp {
 @media only screen and (min-width:651px) and (max-width:950px){
 
     .header-text h1{
-        font-size: 15px;
-        margin-left: 10px;
+        font-size: 45px;
+        /* margin-left: 5px; */
+        font-weight: 800;
         
     }
-    .header-text h4{
-        font-size: 18px;
-        /* text-align: center; */
-        margin-left: 2px;
+    .header-text h2{
+        font-size: 40px;
+        /* margin-left: 5px; */
     }
 
     .header-text{
-        margin-top:20% ;
-        /* font-size: 16px; */
+        margin-top:10% ;
+        
 
     }
     #personalpic{
         width: 50%;
-        height: 400px;
+        height: 1000px;
         
+    }
+    .about-col-1 img{
+        height: 500px;
+        width: 220px;
+    }
+    .about-col-2{
+        /* border: 1px solid red; */
+        padding-left: 20px;
+        
+    }
+
+    #html{
+        width:40px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    #cssi{
+        width:40px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    #js{
+        width:80px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    #git{
+        width:50px;
+        margin-left: 30px;
+        margin-top: 30px;
+        background: transparent;
+        border-radius: 50%;
     }
 
 
 }
+
+
+/* =================================================================================== */
+
+
