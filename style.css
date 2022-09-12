@@ -491,6 +491,12 @@ form .btn2{
     margin-top: 50px;
 }
 
+#msg{
+   color:#61b752;
+   margin-top:-40px ;
+   display: block;
+}
+
 /*------------ CSS for small screen--------------- */
 
 nav .fa-sharp {
@@ -640,6 +646,13 @@ nav .fa-sharp {
 
     }
 
+    #msg{
+        color:#61b752;
+        margin-top:-20px ;
+        display: block;
+        margin-left: 50px;
+     }
+
     
 
 }
@@ -699,6 +712,12 @@ nav .fa-sharp {
         background: transparent;
         border-radius: 50%;
     }
+
+    #msg{
+        color:#61b752;
+        margin-top:-20px ;
+        display: block;
+     }
 
 
 }
