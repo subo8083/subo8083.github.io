@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/40b84a213b.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+   
+
+    <div class="container">
+        <nav>
+            <img class="logo" src="images/logo.jpg" alt="">
+            <ul id="sidemenu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+    </div>
+
+     <div id="pic">
+        <div class="header-text">
+            <h4 style="text-align:center">Java Backend Developer</h4>
+            <h1>Hi, I'm <span>Subojit Mukherjee</span>,</span></h1>
+            <h1>Welcome to my Portfolio.</h1>
+        </div>
+
+        <img id="personalpic" src="images/clear.jpg" alt="">
+
+    </div> 
+<!-- -----------------------About--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/meme.png" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                         Quo iusto adipisci suscipit asperiores provident quaerat 
+                         architecto distinctio voluptatum obcaecati. 
+                         Totam consequuntur nihil id vero, veniam architecto 
+                         deleniti? Ab, odio eius!</p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <h4>Backend <br></h4>
+                                <li><span>Java</span><br></li>
+                                <li><span>Spring-Framework</span><br></li>
+                                <li><span>MySQL</span><br></li>
+                                <li><span>Hibernate</span><br></li>
+                                <br>
+                                <h4>Frontend</h4>
+
+                                <li><span>HTML</span><br></li>
+                                <li><span>CSS</span><br></li>
+                                <li><span>JavaScript</span><br></li>
+                                <li><span>Git</span><br></li>
+
+                                <br>
+                                <h4>Soft-Skills</h4>
+
+                                <li><span>Communication</span><br></li>
+                                <li><span>Team-Lead</span><br></li>
+                                <li><span>Adaptability</span><br></li>
+
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <h4>Masai School<br></h4>
+                                <li><span>Full Stack Developer</span><br>banglore <br>(April-2022-December-2022)</li>
+                                
+                                
+                                <br>
+                                <h4>B.Tech</h4>
+
+                                <li><span>Electrical Engineeering</span><br>NIST,berhampur <br>2014-2018</li>
+                                <br>
+                               
+                                    <h4>Intermediate</h4>
+
+
+                                    <li><span>Kendriya Vidyalaya</span><br>Ranchi <br>2012-2014</li>
+
+                            </ul>
+                         </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--My services =============================== -->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo necessitatibus doloribus ad consequatur! Consequatur consequuntur natus, laboriosam iste illo eligendi. Porro nesciunt error rerum iure ab minima recusandae ipsam sequi?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Backend development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta explicabo omnis. Illo ducimus exercitationem aliquid officia dolores numquam, rerum dolor in laborum quasi. Hic mollitia quia consectetur et sequi?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores doloribus officiis quisquam. Corporis tempore adipisci voluptatibus aperiam asperiores quibusdam eaque, obcaecati sit! Deserunt, accusamus assumenda? Officiis reiciendis adipisci suscipit?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================Port-folio========= -->
+
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illum voluptatem voluptates quis, ipsum et nulla aliquid praesentium perspiciatis voluptatum temporibus aspernatur labore incidunt facilis iure dolor velit. Nam, modi?</p>
+                         <a href="#"><i class="fa-brands fa-github"></i></i></a>
+                         <a href="#"><i class="fa-brands fa-chrome"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illum voluptatem voluptates quis, ipsum et nulla aliquid praesentium perspiciatis voluptatum temporibus aspernatur labore incidunt facilis iure dolor velit. Nam, modi?</p>
+                         <a href="#"><i class="fa-brands fa-github"></i></i></a>
+                         <a href="#"><i class="fa-brands fa-chrome"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illum voluptatem voluptates quis, ipsum et nulla aliquid praesentium perspiciatis voluptatum temporibus aspernatur labore incidunt facilis iure dolor velit. Nam, modi?</p>
+                         <a href="#"><i class="fa-brands fa-github"></i></i></a>
+                         <a href="#"><i class="fa-brands fa-chrome"></i></a>
+                         
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+
+        </div>
+
+    </div>
+
+<!-- -------------------Contatc-------------------- -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>  subojit.m2710@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 7809229805</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/subojit-mukherjee-565305156/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/subo8083"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.instagram.com/subojit_mukherjee/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/cool.subo"><i class="fa-brands fa-facebook"></i></a>
+
+
+
+                </div>
+                <a href="images/Subojit Mukherjee_resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" id="" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> Subojit. Made with <i class="fa-solid fa-heart"></i>. All rights reserved.</p>
+    </div>
+
+</div>
+
+    
+</body>
+</html>
+
+<script>
+
+
+let tablinks=document.getElementsByClassName("tab-links");
+let tabcontents=document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+
+}
+
+let sidemenu=document.getElementById("sidemenu");
+
+function openmenu(){
+
+    sidemenu.style.right="0";
+
+}
+
+function closemenu(){
+
+sidemenu.style.right="-200px";
+
+}
+</script>
