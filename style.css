@@ -126,7 +126,10 @@ nav ul li a:hover::after{
 }
 
 
-
+#logs{
+    width: 150px;
+    border-radius: 20%;
+}
 
 
 /* About-------------------------- */
@@ -520,6 +523,10 @@ nav .fa-sharp {
         /* font-size: 16px; */
 
     }
+    #logs{
+        width: 100px;
+       
+    }
     .header-text h1{
         font-size: 25px;
         margin-bottom: 40px;
@@ -674,6 +681,11 @@ nav .fa-sharp {
         margin-top:10% ;
         
 
+    }
+
+    #logs{
+        width: 80px;
+       
     }
     #personalpic{
         width: 50%;
