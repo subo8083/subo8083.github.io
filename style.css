@@ -535,12 +535,7 @@ nav .fa-sharp {
 }
 
 
-#gith{
-    width: 80%;
-    margin: auto;
-    color: #ff004f;
-    margin-top: 30px;
-}
+
 
 
 
@@ -711,21 +706,12 @@ nav .fa-sharp {
         margin-top: 50px;
     
     }
-    #gith{
-        width: 80%;
-        margin: auto;
-        
-        
-    }
-    #gith{
-        color: #ff004f;
-        
-    }
+   
+  
 
 }
 
 @media only screen and (min-width:666px) and (max-width:1200px){
-
 
 
 
