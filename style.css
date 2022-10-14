@@ -101,7 +101,7 @@ nav ul li a:hover::after{
     
 }
 .header-text h1{
-    font-size: 60px;
+    font-size: 45px;
     margin-top: 40px;
     color: rgb(164, 154, 167);
     font-weight: 800;
@@ -113,7 +113,7 @@ nav ul li a:hover::after{
 
 
 .header-text h2{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 40px;
     color: rgb(164, 154, 167);
 
@@ -539,7 +539,7 @@ nav .fa-sharp {
 
 
 
-@media only screen and (min-width:310px) and (max-width:665px){
+@media only screen and (min-width:310px) and (max-width:600px){
 
    
     #id{
@@ -548,8 +548,8 @@ nav .fa-sharp {
     #personalpic{
         width: 50%;
         margin-left: 1px;
-        height: 500px;
-        margin-top: 10%;;
+        height: 300px;
+        margin-top: 20%;;
     }
     .header-text{
         margin-top:10% ;
@@ -561,7 +561,7 @@ nav .fa-sharp {
        
     }
     .header-text h1{
-        font-size: 25px;
+        font-size: 15px;
         margin-bottom: 40px;
         
     }
@@ -625,7 +625,7 @@ nav .fa-sharp {
     }
 
     .header-text h2{
-        font-size: 20px;
+        font-size: 15px;
         margin-top: 20px;
        
        
@@ -711,13 +711,13 @@ nav .fa-sharp {
 
 }
 
-@media only screen and (min-width:666px) and (max-width:1200px){
+@media only screen and (min-width:601px) and (max-width:1200px){
 
 
 
 
     .header-text h2{
-        font-size: 40px;
+        font-size: 30px;
         /* margin-left: 5px; */
     }
 
@@ -730,11 +730,6 @@ nav .fa-sharp {
     #logs{
         width: 80px;
        
-    }
-    #personalpic{
-        width: 50%;
-        height: 1000px;
-        
     }
     .about-col-1 img{
         display: none; 
@@ -851,7 +846,7 @@ nav .fa-sharp {
     }
 
     .header-text h2{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 20px;
        
        
@@ -866,9 +861,9 @@ nav .fa-sharp {
         flex-basis: 100%;  
       } */
       #personalpic{
-          width: 60%;
+          width: 50%;
           margin-left: 1px;
-          height: 505px;
+          height: 400px;
           margin-top: 10%;;
       }
       .header-text{
@@ -881,7 +876,7 @@ nav .fa-sharp {
          
       }
       .header-text h1{
-          font-size: 50px;
+          font-size: 20px;
           margin-bottom: 40px;
           
       }
