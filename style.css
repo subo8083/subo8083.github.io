@@ -50,14 +50,22 @@ body{
    padding: 10px 10%;
    /* margin-top: -100px; */
     width: 100%;
-  
+    
+    
 
 }
 nav{
+    width: 100%;
+    margin-left: -150px;
+    margin-top: -60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* border: 1px solid red; */
+    position: fixed;
+    z-index: 99;
+    background: black;
    
 
 }
@@ -539,8 +547,28 @@ nav .fa-sharp {
 
 
 
-@media only screen and (min-width:310px) and (max-width:600px){
+@media only screen and (min-width:310px) and (max-width:649px){
 
+
+
+    nav{
+        width: 97%;
+        margin-left: -48px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+        position: fixed;
+        z-index: 99;
+        background: black;
+       
+    
+    }
+
+
+ 
    
     #id{
       flex-basis: 100%;  
@@ -711,14 +739,32 @@ nav .fa-sharp {
 
 }
 
-@media only screen and (min-width:601px) and (max-width:1200px){
+@media only screen and (min-width:650px) and (max-width:900px){
+
+
+
+    nav{
+        width: 96%;
+        margin-left: -60px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+        position: fixed;
+        z-index: 99;
+        background: black;
+       
+    
+    }
 
 
 
 
     .header-text h2{
         font-size: 30px;
-        /* margin-left: 5px; */
+        margin-left: 8px;
     }
 
     .header-text{
@@ -848,7 +894,7 @@ nav .fa-sharp {
     .header-text h2{
         font-size: 20px;
         margin-top: 20px;
-       
+       margin-left: 10px;
        
     
     
@@ -878,6 +924,7 @@ nav .fa-sharp {
       .header-text h1{
           font-size: 20px;
           margin-bottom: 40px;
+          margin-left: 10px;
           
       }
       
