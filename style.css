@@ -65,7 +65,7 @@ nav{
     /* border: 1px solid red; */
     position: fixed;
     z-index: 99;
-    background: black;
+    background:black;
    
 
 }
@@ -739,7 +739,7 @@ nav .fa-sharp {
 
 }
 
-@media only screen and (min-width:650px) and (max-width:900px){
+@media only screen and (min-width:650px) and (max-width:1026px){
 
 
 
@@ -894,7 +894,7 @@ nav .fa-sharp {
     .header-text h2{
         font-size: 20px;
         margin-top: 20px;
-       margin-left: 10px;
+       margin-left: 25px;
        
     
     
@@ -924,7 +924,7 @@ nav .fa-sharp {
       .header-text h1{
           font-size: 20px;
           margin-bottom: 40px;
-          margin-left: 10px;
+          margin-left: 25px;
           
       }
       
