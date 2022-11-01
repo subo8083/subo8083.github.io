@@ -19,6 +19,8 @@ body{
 #pic{
     /* border: 1px solid red; */
     display: flex;
+    margin-left: 100px;
+
 }
 
 #personalpic{
@@ -153,16 +155,17 @@ nav ul li a:hover::after{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.about-col-1{
+/* .about-col-1{
     flex-basis: 35%;
-}
+} */
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
 
 }
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 100%;  
+    /* It should be 60% if photo is added */
 
 
 }
@@ -550,6 +553,9 @@ nav .fa-sharp {
 @media only screen and (min-width:310px) and (max-width:649px){
 
 
+    #pic{
+        margin-left: 30px;
+    }
 
     nav{
         width: 97%;
@@ -742,6 +748,10 @@ nav .fa-sharp {
 @media only screen and (min-width:650px) and (max-width:1026px){
 
 
+    #pic{
+        margin-left: 70px;
+    }
+
 
     nav{
         width: 96%;
@@ -922,7 +932,7 @@ nav .fa-sharp {
          
       }
       .header-text h1{
-          font-size: 20px;
+          font-size: 25px;
           margin-bottom: 40px;
           margin-left: 25px;
           
