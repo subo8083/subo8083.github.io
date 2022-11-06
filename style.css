@@ -240,7 +240,7 @@ nav ul li a:hover::after{
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     position: relative;
 }
@@ -267,9 +267,11 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: #b54765;
-    font-size:14px ;
+    font-size:18px ;
 }
-
+.tab-contents h4{
+    font-size: 18px;
+}
 .tab-contents{
     display: none;
 }
@@ -347,8 +349,6 @@ nav ul li a:hover::after{
     margin-left: 0px;
  
 }
-
-
 
 
 /* ===========Services============ */
@@ -633,6 +633,10 @@ nav .fa-sharp {
         margin-left: 30px;
     }
 
+    #about{
+        margin-top: -100px;
+    }
+
     nav{
         width: 97%;
         margin-left: -48px;
@@ -665,6 +669,14 @@ nav .fa-sharp {
         margin-top:10% ;
         /* font-size: 16px; */
 
+    }
+
+    .tab-contents ul li span{
+       
+        font-size:12px ;
+    }
+    .tab-contents h4{
+        font-size: 12px;
     }
 
     #testing{
